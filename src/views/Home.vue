@@ -17,22 +17,16 @@
         <span class="align-middle ml-25">Wallet</span>
       </b-button>
     </b-nav>
-    <b-link>
-      <div class="d-flex justify-content-center align-items-center">
-        <vuexy-logo />
-        <h1
-          class="text-primary display-4 font-weight-bolder d-none d-md-block"
-        >
-          Ping Explorer<small class="flow-left">Beta</small>
-        </h1>
-      </div>
-    </b-link>
-
-    <p class="mb-1">
-      Ping explorer is not just an explorer but also a wallet and more ... 🛠
-    </p>
-    <h2 class="mb-3">
-      Cosmos Ecosystem Blockchains 🚀
+    <div class="text-center">
+      <vuexy-logo />
+      <h1
+        class="text-primary display-4 font-weight-bolder d-none d-md-block mt-3"
+      >
+        Evmos Explorer & Wallet
+      </h1>
+    </div>
+    <h2 class="text-primary mb-5 mt-2">
+      Stake with evmos.explorer.ninja 🚀
     </h2>
 
     <div>
@@ -95,14 +89,14 @@
         <!--/ no result found -->
       </b-row>
     </div>
-    <app-footer class="mb-1" />
+    <app-footer class="mb-1 mt-5" />
   </div>
 </template>
 
 <script>
 /* eslint-disable global-require */
 import {
-  BLink, BAvatar, BRow, BCol, BCard, BCardText, BCardTitle, BNav, BNavItem, BButton,
+  BAvatar, BRow, BCol, BCard, BCardText, BCardTitle, BNav, BNavItem, BButton,
 } from 'bootstrap-vue'
 import Ripple from 'vue-ripple-directive'
 import VuexyLogo from '@core/layouts/components/Logo.vue'
@@ -114,7 +108,6 @@ import AppFooter from '@/@core/layouts/components/AppFooter.vue'
 
 export default {
   components: {
-    BLink,
     BAvatar,
     BRow,
     BCol,

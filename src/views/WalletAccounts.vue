@@ -83,7 +83,7 @@
         <div class="d-flex justify-content-between align-items-end mb-1">
           <b-button
             v-ripple.400="'rgba(255, 255, 255, 0.15)'"
-            variant="warning"
+            variant="primary"
             :to="`/wallet/import?name=${item.name}`"
           >
             <feather-icon

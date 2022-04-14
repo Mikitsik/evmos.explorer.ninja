@@ -22,11 +22,12 @@ $gray-800: #1e1e1e !default; // $gray-dark
 $gray-900: #2a2e30 !default;
 $black: #22292f !default; // 231f48 22292f
 
+$evmos-red: #ff0000 !default;
 $purple: #7367f0 !default; //$primary
 $green: #28c76f !default; //$success
 $blue: #00cfe8 !default; //$info
 $orange: #ff9f43 !default; //$warning
-$red: #ea5455 !default; //$danger
+$red: #ff0000 !default; // #ea5455 $danger
 
 $primary: $purple !default;
 $secondary: #82868b !default;
