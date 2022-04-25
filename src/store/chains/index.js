@@ -1,20 +1,9 @@
-/*
- * @Description: file
- * @Autor: dingyiming
- * @Date: 2021-11-20 15:26:27
- * @LastEditors: dingyiming
- * @LastEditTime: 2021-11-20 15:33:07
- */
-import { isTestnet } from '@/libs/utils'
 import { sha256 } from '@cosmjs/crypto'
 import { toHex } from '@cosmjs/encoding'
 
 let chains = {}
 
-let configs = require.context('../../chains/mainnet', false, /\.json$/)
-if (isTestnet()) {
-  configs = require.context('../../chains/testnet', false, /\.json$/)
-}
+const configs = require.context('../../chains/mainnet', false, /\.json$/)
 
 const update = {}
 configs.keys().forEach(k => {
@@ -23,6 +12,7 @@ configs.keys().forEach(k => {
 })
 
 chains = update
+console.log(chains.mainnet)
 localStorage.setItem('chains', JSON.stringify(update))
 const selected = chains.cosmos
 
