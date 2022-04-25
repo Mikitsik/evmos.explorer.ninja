@@ -12,7 +12,6 @@ configs.keys().forEach(k => {
 })
 
 chains = update
-console.log(chains.mainnet)
 localStorage.setItem('chains', JSON.stringify(update))
 const selected = chains.cosmos
 

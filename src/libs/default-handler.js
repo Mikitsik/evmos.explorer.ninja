@@ -21,13 +21,12 @@ const handler = class DefaultHandler {
   }
 
   processProposalTally(tally) {
-    console.log(tally)
+
     const result = this.commonProcess(tally)
     return result
   }
 
   processProposalList(proposals) {
-    console.log(proposals)
 
     const ret = []
     this.commonProcess(proposals[0]).forEach(element => {
@@ -69,7 +68,7 @@ const handler = class DefaultHandler {
         total_deposit: formatToken(element.total_deposit[0]),
       })
     })
-    console.log(ret)
+
     return ret
   }
 }

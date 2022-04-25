@@ -126,7 +126,6 @@ export function chartColors() {
 }
 
 export function extractAccountNumberAndSequence(ret) {
-  console.log(ret)
   let account = ret.value
   if (ret.value && ret.value.base_vesting_account) { // vesting account
     account = ret.value.base_vesting_account?.base_account

@@ -57,7 +57,7 @@ export default {
               volume: data.amount,
             })
           }
-          console.log(this.list);
+
           store.onDataCallback(this.list, { noData: !this.list.length })
         }
 
@@ -95,7 +95,7 @@ export default {
       theme: 'Dark',
       favorites: {
         intervals: ['30', '240', '1D'],
-      },  
+      },
       disabled_features: [ // 禁用功能
         'volume_force_overlay',
         'left_toolbar',

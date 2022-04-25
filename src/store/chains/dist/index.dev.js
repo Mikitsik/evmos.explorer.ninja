@@ -33,7 +33,6 @@ var chains = {};
 
 var configs = require.context('../../chains/mainnet', false, /\.json$/);
 
-console.log(configs);
 var update = {};
 configs.keys().forEach(function (k) {
   var c = configs(k);

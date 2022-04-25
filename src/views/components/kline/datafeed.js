@@ -85,7 +85,7 @@ class DataFeeds {
             }))
           }
         } catch (err) {
-          console.log(err)
+
         }
       }, 500)
     }
