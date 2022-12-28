@@ -6,14 +6,13 @@
         <vuexy-logo />
         <h1
           class="text-primary display-4 font-weight-bolder d-none d-md-block"
-        >
-          Ping Dashboard<small class="flow-left">Beta</small>
+        >&nbsp;&nbsp;2xStake Explorer
         </h1>
       </div>
     </b-link>
 
     <p class="mb-1">
-      Ping Dashboard is not just an explorer but also a wallet and more ... 🛠
+      2xStake Explorer is not just an explorer but also a wallet and more ... 🛠
     </p>
     <h2 class="mb-3">
       Cosmos Ecosystem Blockchains 🚀

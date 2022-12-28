@@ -1,0 +1,19 @@
+{
+  "chain_name": "nibiru",
+  "api": ["http://65.109.92.79:12317/"],
+  "rpc": ["http://65.109.92.79:12657/"],
+  "snapshot_provider": "",
+  "sdk_version": "0.42.4",
+  "coin_type": "118",
+  "min_tx_fee": "5000",
+  "addr_prefix": "nibi",
+  "excludes": "mint",
+  "logo": "/logos/nibiru.png",
+  "assets": [{
+      "base": "unibi",
+      "symbol": "NIBI",
+      "exponent": "6",
+      "coingecko_id": "",
+      "logo": "/logos/nibiru.png"
+  }]
+}
