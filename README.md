@@ -1,6 +1,6 @@
 <div align="center">
 
-![](./public/logo.svg)
+![](./public/logo.png)
 
 <h1>2xStake Explorer</h1>
 
